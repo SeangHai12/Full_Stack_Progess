@@ -1,3 +1,5 @@
+
+
 ol {
   margin-left: -40px;
   margin-top: -20px;
@@ -5,3 +7,26 @@ ol {
 }
 
 /* Write your CSS below, don't change the rules above. */
+
+.note {
+  color: red;
+}
+
+#id-selector-demo{
+  color: green;
+}
+
+.note[value="2"]{
+  color: black;
+  
+}
+.note[value="4"]{
+  color: blue;
+}
+.note[value="5"]{
+  color: black;
+}
+
+*{
+  text-align: center;
+}
