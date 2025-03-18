@@ -3,6 +3,18 @@
 h1,h2{
     color: purple;
 }
-.done{
-    color: red;
+
+.box > p{
+    color: firebrick;
+}
+
+.box li{
+    color: blue;
+}
+li.done{
+    color: green;
+}
+
+ul p.done{
+    font-size: 0.5rem;
 }
